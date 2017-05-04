@@ -7,5 +7,5 @@
 ## Quickstart
 
 ```bash
-docker build -p 80:80 --link POSTGRES_CONTAINER:postgres eswork/pgweb
+docker build -p 8080:8080 --link POSTGRES_CONTAINER:postgres eswork/pgweb
 ```

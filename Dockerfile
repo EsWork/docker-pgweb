@@ -18,7 +18,7 @@ USER pgweb
 
 WORKDIR /app
 
-EXPOSE 80/tcp
+EXPOSE 8080/tcp
 
 ENTRYPOINT ["/app/pgweb_linux_amd64"]
-CMD ["-s", "--bind=0.0.0.0", "--listen=80"]
+CMD ["-s", "--bind=0.0.0.0", "--listen=8080"]
