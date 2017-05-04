@@ -1,0 +1,13 @@
+language: bash
+services: docker
+
+branches: 
+  only: 
+    - master
+
+install:
+  - docker build -t eswork/pgweb .
+  
+script: 
+  - docker run --name pgweb -d --restart=always eswork/pgweb; sleep 5
+  - docker ps -a | grep -q pgweb
