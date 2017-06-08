@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/EsWork/docker-pgweb.svg?branch=master)](https://travis-ci.org/EsWork/docker-pgweb)
+[![](https://images.microbadger.com/badges/image/eswork/pgweb.svg)](https://microbadger.com/images/eswork/pgweb "Get your own image badge on microbadger.com")
 
 # Introduction
 
