@@ -1,7 +1,7 @@
 FROM buildpack-deps:jessie-curl
 LABEL maintainer "v.la@live.cn"
 
-ENV PGWEB_VERSION=0.9.12
+ENV PGWEB_VERSION=0.11.1
 
 RUN \
   apt-get update && \
